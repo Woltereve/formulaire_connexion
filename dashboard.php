@@ -7,6 +7,6 @@
 <body>
     <h1>Dashboard</h1>
 
-    
+    <p>Bonjour <?= $_POST[ 'username']- ;?></p>
 </body>
 </html>
