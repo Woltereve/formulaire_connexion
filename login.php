@@ -6,8 +6,13 @@
 </head>
 <body>
     <h1>Connexion</h1>
+    <?php
+    if (isset ($GET['error'])){
+       echo '<p> Failed. Retry</p>';
+       }
+    ?>
 
-    <form method="POST" action="handler.php">
+    <form method="POST" action="connect.php">
         <label for="username">Nom d'utilisateur</label>
         <input id="username" name="username" required>
 
